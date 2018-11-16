@@ -18,4 +18,5 @@ end
 def list(array)
   array.each_with_index do |song_title|
     puts "#{array[song_title] + 1}. song_title"
+  end
 end
