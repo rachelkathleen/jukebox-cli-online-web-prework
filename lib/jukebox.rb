@@ -15,7 +15,7 @@ def help
  puts "- exit : exits this program"
 end
 
-def list
+def list(array)
 end
 
 def play(array)
