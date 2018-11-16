@@ -15,7 +15,7 @@ def help
  puts "- exit : exits this program"
 end
 
-def list(array)
+def play(array)
   array.each_with_index do |song_title|
     puts "#{array[song_title] + 1}. song_title"
   end
