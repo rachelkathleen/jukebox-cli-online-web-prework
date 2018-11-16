@@ -18,8 +18,8 @@ end
 def list(array)
 end
 
-def play(array)
-  array.each_with_index do |number, song_title|
-    puts "#{array.index[number - 1]}. song_title"
+def play(number)
+  songs.each_with_index do |number, song_title|
+    puts "#{songs.index[number - 1]}. song_title"
   end
 end
