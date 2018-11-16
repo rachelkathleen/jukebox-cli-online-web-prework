@@ -29,11 +29,8 @@ def help
  puts "- exit : exits this program"
 end
 
-def list(array)
-end
-
-def play(number)
-  songs.each_with_index do |number, song_title|
-    puts "#{songs.index[number - 1]}. song_title"
+def list(songs)
+  songs.each_with_index do |song, i|
+    puts "#{i+1}. #{song}"
   end
 end
