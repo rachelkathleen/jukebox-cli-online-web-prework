@@ -16,4 +16,6 @@ def help
 end
 
 def list(array)
+  array.each_with_index do |number, song_title|
+    puts
 end
