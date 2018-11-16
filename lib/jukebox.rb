@@ -50,3 +50,21 @@ end
 def exit_jukebox
  puts "Goodbye"
 end
+
+def run
+  help
+  puts "Please enter a command:"
+  first_selection = gets.chomp
+  if first_selection == "help"
+    help
+  elsif first_selection == "list"
+    list(songs)
+  elsif first_selection == "play"
+    play(songs)
+  else first_selection == "exit"
+    exit_jukebox
+  end
+  end
+  end
+  end    
+end
