@@ -63,6 +63,5 @@ def run(command)
     play(songs)
   else first_selection == "exit"
     exit_jukebox
-
-end
+  end
 end
